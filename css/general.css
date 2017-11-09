@@ -1,0 +1,68 @@
+/* font-family: 'Bungee Inline', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Passion One', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Overpass Mono', monospace; */
+
+body{
+    background-color: rgba(255, 250, 250, 0.404);
+    background-image: url('../img/back-img.jpg');
+    background-position: absolute;
+    /* background-position-y: center; */
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Overpass Mono', monospace;
+    
+}
+nav{
+    font-family: 'Black Ops One', cursive;
+    font-size: 20px;  
+    color: #ffffff;  
+}
+.align-img{
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.h3_carousle{
+    text-shadow: #fffdfd;
+}
+
+.seccion_nueva{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 100px;
+    color: #D4AF37;
+}
+.p_seccion_nueva{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+  .card {
+    /* position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: block; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: rgba(43, 42, 42, 0.432);
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color: #D4AF37	;
+    margin-bottom: 10px;
+    font-size: 13px;
+} 
+.card-title{
+    font-family: 'Passion One', cursive;
+    font-size: 20px;
+    
+}
+
+.car-body{
+    width: fit-content;
+}
